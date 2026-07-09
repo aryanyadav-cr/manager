@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://manager-4pee.onrender.com";
+const API = "https://manager-4pee.onrender.com/api/password";
 
 export const getpassword = () => {
     return axios.get(API)
